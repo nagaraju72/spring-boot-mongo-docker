@@ -15,8 +15,8 @@ spec:
       - image: nagaraju72/spring-boot-mongo
         name: springboot
         ports:
-        name: springboot
-        - containerPort: 8080         
+      - name: springboot
+        containerPort: 8080         
 ---
 # Node Port Service For SpringApp
 apiVersion: v1
